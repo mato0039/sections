@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  max-width: 25em;
+  padding: 1em;
+}
+
+img {
+  display: block;
+}
+
+p {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  border: 3px solid;
+  border-radius: .4em;
+  color: #333;
+  font-size: 1.2rem;
+  padding: .5em .75em;
+  text-decoration: none;
+}
