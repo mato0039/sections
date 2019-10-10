@@ -13,6 +13,14 @@ body {
   margin: 0;
 }
 
+.image {
+  display: inline-block;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  max-width: 25em;
+  padding: 1em;
+}
+
 div {
   display: inline-block;
   margin-top: 0;
@@ -23,7 +31,7 @@ div {
 img {
   display: block;
   max-width: 25em;
-  vertical-align: center;
+  vertical-align: middle;
   width: 100%;
 }
 
@@ -34,16 +42,17 @@ h2 {
 }
 
 p {
+  color: #333;
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
 .btn {
-  border: 3px solid;
+  border: 3px solid #333;
   border-radius: .4em;
-  color: #333;
+  color: #666;
   display: inline-block;
   font-size: 1.2rem;
   margin: 0;
