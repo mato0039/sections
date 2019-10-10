@@ -9,18 +9,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 div {
+  display: inline-block;
   max-width: 25em;
-  padding: 1em;
+  padding: 2em;
 }
 
 img {
   display: block;
+  max-width: 25em;
+}
+
+h2 {
+  display: block;
+  margin-top: 1.5rem;
+  padding: .4em .75em .5em;
 }
 
 p {
   display: inline-block;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 a {
@@ -28,6 +40,7 @@ a {
   border-radius: .4em;
   color: #333;
   font-size: 1.2rem;
+  margin-top: 1.5rem;
   padding: .5em .75em;
   text-decoration: none;
 }
