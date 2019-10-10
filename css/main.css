@@ -16,23 +16,25 @@ body {
 div {
   display: inline-block;
   max-width: 25em;
-  padding: 2em;
+  padding: 1em;
 }
 
 img {
   display: block;
   max-width: 25em;
+  width: 100%;
 }
 
 h2 {
   display: block;
-  margin-top: 1.5rem;
-  padding: .4em .75em .5em;
+  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 p {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -40,7 +42,7 @@ a {
   border-radius: .4em;
   color: #333;
   font-size: 1.2rem;
-  margin-top: 1.5rem;
+  margin-top: 0;
   padding: .5em .75em;
   text-decoration: none;
 }
