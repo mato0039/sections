@@ -11,14 +11,15 @@ html {
 
 body {
   margin: 0;
+  vertical-align: middle;
 }
 
 .image {
   display: inline-block;
-  margin-top: 1.5em;
+  margin-top: 2em;
   margin-bottom: 0;
   max-width: 25em;
-  padding: .75em 1em;
+  padding: 2em 1em;
   vertical-align: middle;
 }
 
@@ -27,7 +28,7 @@ div {
   margin-top: 0;
   margin-bottom: 1.5em;
   max-width: 25em;
-  padding: .75em 1em;
+  padding: 0em 1em 2em;
   vertical-align: middle;
 }
 
@@ -39,14 +40,14 @@ img {
 
 h2 {
   display: block;
-  margin-top: .5rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
 p {
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   text-align: left;
 }
 
@@ -57,7 +58,7 @@ p {
   display: inline-block;
   font-size: 1.2rem;
   margin: 0;
-  padding: .5em .75em;
+  padding: .4em .75em .5em;
   text-align: center;
   text-decoration: none;
 }
