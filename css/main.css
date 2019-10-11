@@ -18,7 +18,8 @@ body {
   margin-top: 1.5em;
   margin-bottom: 0;
   max-width: 25em;
-  padding: 2em 2em 1em 2em;
+  padding: 2em 1em 1em;
+  vertical-align: middle;
 }
 
 div {
@@ -26,7 +27,8 @@ div {
   margin-top: 0;
   margin-bottom: 1.5em;
   max-width: 25em;
-  padding: 1em 2em 2em 2em;
+  padding: 1em 1em 2em;
+  vertical-align: middle;
 }
 
 img {
@@ -53,7 +55,7 @@ p {
   border-radius: .4em;
   color: #666;
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
   padding: .5em .75em;
   text-align: center;
