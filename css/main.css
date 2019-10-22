@@ -24,6 +24,7 @@ section {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  padding-bottom: 0;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@ div {
   display: inline-block;
   margin-top: 0;
   max-width: 25em;
-  padding: 1em;
+  padding: 0;
   text-align: left;
 }
 
@@ -43,8 +44,7 @@ img {
 
 h2 {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5em;
   text-align: left;
 }
 
@@ -52,6 +52,7 @@ p {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 1.5rem;
+  padding-top: 1em;
   text-align: left;
 }
 
@@ -59,7 +60,7 @@ p {
   border: 3px solid #333;
   border-radius: .4em;
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   text-align: left;
 }
 
