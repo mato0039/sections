@@ -23,7 +23,8 @@ section {
 .image {
   display: inline-block;
   max-width: 25em;
-  padding: 0;
+  padding: 1em;
+  padding-bottom: 0;
   text-align: center;
 }
 
